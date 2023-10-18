@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"d58de6ba5b34a69c","type":"group","x":260,"y":820,"width":1380,"height":640,"label":"Визуальное представление"},
+		{"id":"839434c1821fcafa","type":"text","text":"**Рабочая папка**","x":360,"y":1000,"width":227,"height":100},
+		{"id":"9a0293a2d1aeae06","type":"text","text":"**Удаленный репозиторий**","x":1213,"y":1000,"width":227,"height":100},
+		{"id":"ff45a138f5d6adb4","type":"text","text":"**Локальный репозиторий**","x":929,"y":1000,"width":227,"height":100},
+		{"id":"52cefdc5156145d3","type":"text","text":"**Индекс файлов \n(стейдинг)**","x":666,"y":1000,"width":227,"height":100},
+		{"id":"60d9381011a315e0","type":"text","text":"reset {commit}","x":640,"y":1240,"width":217,"height":50},
+		{"id":"14397ec898b9e1d3","type":"text","text":"pull","x":857,"y":1360,"width":104,"height":50},
+		{"id":"2acda4512be030a3","type":"file","file":"roadmap/Backend/_attechments/Pasted image 20231005004621.png","x":252,"y":1600,"width":400,"height":240},
+		{"id":"44ee5d5765fed313","type":"file","file":"roadmap/Backend/_attechments/Pasted image 20231005004518.png","x":501,"y":160,"width":392,"height":576},
+		{"id":"e5c7a0a75555f7f5","type":"file","file":"roadmap/Backend/_attechments/Pasted image 20231005004735.png","x":954,"y":347,"width":400,"height":389},
+		{"id":"08d35f28fd8c0bcb","type":"file","file":"roadmap/Backend/_attechments/Pasted image 20231005004749.png","x":692,"y":2597,"width":400,"height":110},
+		{"id":"90c30939bc0bea72","type":"file","file":"roadmap/Backend/_attechments/Pasted image 20231005004647.png","x":252,"y":1880,"width":400,"height":827},
+		{"id":"8e0a10960e70a511","type":"file","file":"roadmap/Backend/_attechments/Pasted image 20231005004714.png","x":692,"y":1600,"width":280,"height":487}
+	],
+	"edges":[
+		{"id":"7701e3ae9cbb4d13","fromNode":"839434c1821fcafa","fromSide":"top","toNode":"52cefdc5156145d3","toSide":"top","label":"add"},
+		{"id":"d792e04063ca4170","fromNode":"52cefdc5156145d3","fromSide":"top","toNode":"ff45a138f5d6adb4","toSide":"top","label":"commit"},
+		{"id":"13c054552cff2355","fromNode":"ff45a138f5d6adb4","fromSide":"top","toNode":"9a0293a2d1aeae06","toSide":"top","label":"push"},
+		{"id":"2294220981e774a1","fromNode":"9a0293a2d1aeae06","fromSide":"bottom","toNode":"ff45a138f5d6adb4","toSide":"bottom","label":"fetch"},
+		{"id":"1a2a7d718b5f07c1","fromNode":"14397ec898b9e1d3","fromSide":"left","toNode":"839434c1821fcafa","toSide":"bottom"},
+		{"id":"bfc0dd076cfbfab3","fromNode":"52cefdc5156145d3","fromSide":"bottom","toNode":"839434c1821fcafa","toSide":"bottom","label":"reset"},
+		{"id":"83589b9e3a734886","fromNode":"60d9381011a315e0","fromSide":"left","toNode":"839434c1821fcafa","toSide":"bottom"},
+		{"id":"e17d82be703441bd","fromNode":"9a0293a2d1aeae06","fromSide":"bottom","toNode":"14397ec898b9e1d3","toSide":"right"},
+		{"id":"b0456347be23a2dc","fromNode":"ff45a138f5d6adb4","fromSide":"bottom","toNode":"60d9381011a315e0","toSide":"right"},
+		{"id":"e4e831767b04f1b7","fromNode":"60d9381011a315e0","fromSide":"left","toNode":"839434c1821fcafa","toSide":"bottom"}
+	]
+}

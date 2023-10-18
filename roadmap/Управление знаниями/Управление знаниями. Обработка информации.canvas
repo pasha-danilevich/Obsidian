@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"type":"group","id":"ee86b6daf4e6ee4f","x":-1500,"y":-20,"width":900,"height":1240,"color":"4","label":"Цикл обучение за день"},
+		{"type":"text","text":"Поиск задачи/Переход к следующей","id":"2112254f07356b8c","x":-1260,"y":300,"width":260,"height":120},
+		{"type":"text","text":"Составление плана по задаче","id":"fedef1a65735e473","x":-1260,"y":500,"width":260,"height":69},
+		{"type":"text","text":"Повторение вчерашнего","id":"fc18fc5adf60ea7c","x":-1255,"y":140,"width":250,"height":100},
+		{"type":"text","text":"**ПРАКТИКА**","id":"13a5c2b7c85ae4e6","x":-935,"y":140,"width":250,"height":100},
+		{"id":"ee80f5b0a324ab62","type":"file","file":"roadmap/Управление знаниями/Правила заполнения заметок.md","x":-460,"y":-840,"width":850,"height":580},
+		{"type":"text","text":"Создание задачи","id":"0f6b9ac79507da1c","x":-935,"y":500,"width":250,"height":69},
+		{"type":"text","text":"**ПРАКТИКА**","id":"4f4c11ae86110226","x":-1255,"y":1020,"width":250,"height":60},
+		{"type":"text","text":"Поиск источников информации для обучения","id":"f854e9f3efefbcc4","x":-1260,"y":640,"width":260,"height":120},
+		{"type":"text","text":"[[Алгоритм исследования и конспектирования]]","id":"0e3a7da8032c10e6","x":-1260,"y":840,"width":260,"height":120},
+		{"type":"text","text":"Базовые принципы исследования ","id":"9d0af87e34a4c245","x":-460,"y":-200,"width":850,"height":60},
+		{"type":"file","file":"roadmap/Управление знаниями/Последовательность и постепенность.md","id":"f350e536be88815d","x":-10,"y":-20,"width":400,"height":400},
+		{"type":"file","file":"roadmap/Управление знаниями/Минимализм и простота.md","id":"d88b971bb38d6092","x":-440,"y":-20,"width":400,"height":400},
+		{"type":"file","file":"roadmap/Управление знаниями/Алгоритм исследования и конспектирования.md","id":"bd28a76c41956c49","x":-10,"y":460,"width":400,"height":820}
+	],
+	"edges":[
+		{"id":"deb9f7ffb2462d58","fromNode":"9d0af87e34a4c245","fromSide":"bottom","toNode":"d88b971bb38d6092","toSide":"top"},
+		{"id":"1686c7cb727eccec","fromNode":"9d0af87e34a4c245","fromSide":"bottom","toNode":"f350e536be88815d","toSide":"top"},
+		{"id":"239ecf074b746a7f","fromNode":"fc18fc5adf60ea7c","fromSide":"bottom","toNode":"2112254f07356b8c","toSide":"top"},
+		{"id":"167a5f0430c5c0e8","fromNode":"2112254f07356b8c","fromSide":"bottom","toNode":"fedef1a65735e473","toSide":"top","label":"Если есть задача"},
+		{"id":"edd48c52c144ad1f","fromNode":"2112254f07356b8c","fromSide":"right","toNode":"0f6b9ac79507da1c","toSide":"top","label":"Если нет задачи"},
+		{"id":"869bdffa71ded66f","fromNode":"0f6b9ac79507da1c","fromSide":"left","toNode":"fedef1a65735e473","toSide":"right"},
+		{"id":"1d50899706e3299a","fromNode":"fedef1a65735e473","fromSide":"bottom","toNode":"f854e9f3efefbcc4","toSide":"top"},
+		{"id":"608debd724eb541d","fromNode":"f350e536be88815d","fromSide":"bottom","toNode":"bd28a76c41956c49","toSide":"top"},
+		{"id":"03e9ca1c9d81e17b","fromNode":"f854e9f3efefbcc4","fromSide":"bottom","toNode":"0e3a7da8032c10e6","toSide":"top"},
+		{"id":"7ad9a377e06489ed","fromNode":"9d0af87e34a4c245","fromSide":"bottom","toNode":"ee86b6daf4e6ee4f","toSide":"top"},
+		{"id":"04cd803fbf437f2e","fromNode":"0e3a7da8032c10e6","fromSide":"bottom","toNode":"4f4c11ae86110226","toSide":"top"},
+		{"id":"8cc02c935a396648","fromNode":"4f4c11ae86110226","fromSide":"left","toNode":"fc18fc5adf60ea7c","toSide":"left"},
+		{"id":"12ee86d5498f36bd","fromNode":"fc18fc5adf60ea7c","fromSide":"right","toNode":"13a5c2b7c85ae4e6","toSide":"left"},
+		{"id":"97533364dff87826","fromNode":"0e3a7da8032c10e6","fromSide":"right","toNode":"bd28a76c41956c49","toSide":"left"}
+	]
+}
