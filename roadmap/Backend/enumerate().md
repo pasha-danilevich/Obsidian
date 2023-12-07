@@ -2,8 +2,6 @@
 Пример:
 ```python
 seq = list('абвгде')
-seq
-# ['а', 'б', 'в', 'г', 'д', 'е']
  for i, val in enumerate(seq, start=1):
      print(f'№ {i} => {val}')
  

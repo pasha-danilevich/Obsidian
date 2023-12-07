@@ -2,7 +2,7 @@
 Если необходимо пройтись так по [[Коллекции]], то необходимо проитирировать объект с помощью функции [[iter()]]
 ```python
 a = {1,2,5,2,6,2,3}
-# print(next(a)) TypeError: 'list' object is not an iterator
+# print(next(a)) TypeError: 'set' object is not an iterator
 iter_set = iter(a)
 print(next(iter_set)) # 1
 print(next(iter_set)) # 2
